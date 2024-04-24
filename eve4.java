@@ -28,7 +28,7 @@ public class eve4 {
 		                    last=i;
 		                }
 		            }
-		            System.out.println("Sum:"+max);
+		            System.out.println("Sum "+max);
 		            System.out.println("Elements : ");
 		            while (first<=last){
 		                if(first==last){
