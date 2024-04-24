@@ -8,6 +8,7 @@ public class eve4 {
 		        System.out.println("Enter the length");
 		        int len=sc.nextInt();
 				int arr[]=new int[len]; 
+		System.out.println("Enter the array Elements");
 		        for(int i=0;i<arr.length;i++) {
 			    	arr[i]=sc.nextInt();
 			 }
