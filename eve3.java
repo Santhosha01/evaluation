@@ -4,13 +4,17 @@ import java.util.Scanner;
 public class eve3 {            
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the array 1 length");
 		int len=sc.nextInt();
+		System.out.println("Enter the array 2 length");
 		int len1=sc.nextInt();
 		int arr1[]=new int[len];
+		System.out.println("Enter the array 1 Elements");
 	    for(int i=0;i<arr1.length;i++) {
 	    	arr1[i]=sc.nextInt();
 	    }
 	    int arr2[]=new int[len1];
+		System.out.println("Enter the array 2 Elements");
 	    for(int i=0;i<arr2.length;i++) {
 	    	arr2[i]=sc.nextInt();
 	    } 
