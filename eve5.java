@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class eve5 {
 
 	public static void main(String[] args) {
-		        Scanner scanner = new Scanner(System.in);
+		        Scanner sc = new Scanner(System.in);
 		        System.out.println("Enter the length:");
-		        int size = scanner.nextInt();
-		        int ans[][] = new int[size][size];
+		        int len = sc.nextInt();
+		        int ans[][] = new int[len][len];
 		        int temp = ans.length/2;
 		        int start = 0;
 		        int end = ans.length-1;
